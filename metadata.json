@@ -1,0 +1,6 @@
+{
+  "name": "AI Phone Assistant",
+  "description": "Your ultimate high-fidelity AI virtual pocket companion. Simulates phone calls, summarizes transcripts, delegates tasks, and writes smart drafts using Gemini!",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
