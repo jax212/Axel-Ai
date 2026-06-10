@@ -1,6 +1,6 @@
 {
-  "name": "AI Phone Assistant",
-  "description": "Your ultimate high-fidelity AI virtual pocket companion. Simulates phone calls, summarizes transcripts, delegates tasks, and writes smart drafts using Gemini!",
+  "name": "Axel AI",
+  "description": "One AI for Everything: Voice assistant conversation, simulated hardware device control, vision OCR scanning, on-device memory fact persistency, and automated routine sequencing.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

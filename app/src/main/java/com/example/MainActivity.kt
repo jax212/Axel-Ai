@@ -24,7 +24,11 @@ class MainActivity : ComponentActivity() {
 
         // Core MVVM wiring
         val database = AppDatabase.getDatabase(applicationContext)
-        val repository = AssistantRepository(database.callRecordDao())
+        val repository = AssistantRepository(
+            database.callRecordDao(),
+            database.memoryItemDao(),
+            database.automationRoutineDao()
+        )
         val viewModel: AssistantViewModel by viewModels {
             AssistantViewModelFactory(repository)
         }

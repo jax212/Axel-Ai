@@ -21,7 +21,7 @@ class GreetingScreenshotTest {
 
   @Test
   fun greeting_screenshot() {
-    composeTestRule.setContent { MyApplicationTheme { androidx.compose.material3.Text("AI Phone Assistant") } }
+    composeTestRule.setContent { MyApplicationTheme { androidx.compose.material3.Text("Axel AI") } }
 
     composeTestRule.onRoot().captureRoboImage(filePath = "src/test/screenshots/greeting.png")
   }
